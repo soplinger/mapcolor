@@ -1,0 +1,12 @@
+# Australian states and territories, one region per line.
+# "Name: Neighbour, ..." lists the borders; a bare name is an isolated region.
+
+WA: NT, SA
+NT: WA, SA, QLD
+SA: WA, NT, QLD, NSW, VIC
+QLD: NT, SA, NSW
+NSW: QLD, SA, VIC
+VIC: SA, NSW
+TAS
+
+fix WA = 1

@@ -1,0 +1,10 @@
+# Deliberately broken map to show line-numbered problems.
+Alpha: Beta, Gamma
+Beta: Alpha, Delta
+Gamma: Alpha, Zeta
+Delta: Beta, Alpha
+Alpha: Beta
+Epsilon: Epsilon, Beta
+fix Delta 2
+fix Gamma = 0
+bad name: Beta
